@@ -1,0 +1,16 @@
+<div class="fontcolor">
+  Componet 2
+  <table >
+    <tr>
+      <td><input type="text" [(ngModel)]="comp2Value"></td>
+      <td><button (click)="sendToComp3()">Send To Componet 3</button></td>
+    </tr>
+    <tr>
+      <td> Value From Componet 1</td>
+      <td><span style="color: red"> {{comp1Value}}</span></td>
+    </tr>
+    <tr>
+      <td><button (click)="sendToComp1()">Back To Componet 1</button></td>
+    </tr>
+  </table>
+</div>
